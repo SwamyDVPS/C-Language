@@ -36,3 +36,39 @@ Operands :
 
 Operator: which performs the operation on 2 or more operands
 eg: 2+3, 2+3+5 so on
+
+notations:
+---------
+
+integer 
+
+
+#include<stdio.h>
+
+int main()
+{
+    int num1, num2, result; //declaration
+    
+    printf("Enter value of num1: ");
+    scanf("%d", &num1);
+    
+    printf("Enter value of num2: ");
+    scanf("%d", &num2);
+    
+    //printf("The value of num1 is: %d", num2);
+    
+    //addition of 2 numbers
+    //sum of 1000 and 430 is: 143
+    //printf("%d",num1+num2\n);
+    //printf("sum of 1000 and 430 is",num1+num2);
+    
+    result=num1+num2;
+    printf("Sum of %d and %d is: %d", num1, num2, result);
+    
+    result=num1*num2;
+    printf("\nProduct of %d and %d is: %d", num1, num2, result);
+    
+    result=num1-num2;
+    printf("\nDifference of %d and %d is: %d", num1,num2,result);
+    
+}
