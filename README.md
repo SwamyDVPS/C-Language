@@ -42,7 +42,8 @@ notations:
 
 integer 
 
-
+Sample Calculator:
+-----------------
 #include<stdio.h>
 
 int main()
@@ -71,4 +72,27 @@ int main()
     result=num1-num2;
     printf("\nDifference of %d and %d is: %d", num1,num2,result);
     
+    //Homework division
+}
+
+Circle:
+------
+
+#include<stdio.h>
+
+int main()
+{
+    int radius; 
+    float area, circumference;
+    
+    printf("Enter the radius: ");
+    scanf("%d", &radius);
+    
+    area = 3.14*radius*radius;
+    printf("Area of circle with radius %d is: %f", radius, area);
+    
+    circumference = 2*3.14*radius;
+    printf("\ncircumference of circle with radius %d is:  %f", radius, circumference);
+    
+    //Homework Square and Rectangle
 }
